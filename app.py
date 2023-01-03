@@ -21,7 +21,8 @@ studying and practising metabolomics.
 EMAIL = "tuoooliu@arizona.edu"
 SOCIAL_MEDIA = {
     "LinkedIn":"https://www.linkedin.com/in/tuo-l-491782194/",
-    "GitHub": "https://github.com/TuoooLiu666"
+    "GitHub": "https://github.com/TuoooLiu666",
+    "Website": "https://tuo-liu.netlify.app"
 }
 
 PROJECTS = {
@@ -71,9 +72,9 @@ st.write('\n')
 st.subheader("Experience & Qulifications")
 st.write(
     """
-- ✔️ 4 Years expereince extracting publishable insights from data
+- ✔️ 4 Years expereince extracting publishable insights from experiment& survey data
 - ✔️ Solid understanding of statistical grond and biostatistical applications
-- ✔️ Strong hands on experience and knowledge in Python and R
+- ✔️ Strong hands on experience and knowledge in R & Python
 - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
 """
 )
@@ -83,10 +84,10 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Programming: Python (Scikit-learn, Pandas), R, SQL
+- 👩‍💻 Programming: R, Python, SQL
 - 📊 Data Visulization: GGPLOT2, Shiny, Streamlit
-- 📚 Modeling: General linear regression
-- 🗄️ Databases: MySQL/NoSQL
+- 📚 Modeling: Generalized linear regression
+- 🗄️ Databases: MySQL
 """
 )
 
@@ -97,39 +98,17 @@ st.subheader("Work History")
 st.write("---")
 
 # --- JOB 1
-st.write("🚧", "**Senior Data Analyst | Ross Industries**")
-st.write("02/2020 - Present")
+st.write("🚧", "**Research Assistant/Associate | University of Arizona**")
+st.write("08/2021 - Present")
 st.write(
     """
-- ► Used PowerBI and SQL to redeﬁne and track KPIs surrounding marketing initiatives, and supplied recommendations to boost landing page conversion rate by 38%
-- ► Led a team of 4 analysts to brainstorm potential marketing and sales improvements, and implemented A/B tests to generate 15% more client leads
-- ► Redesigned data model through iterations that improved predictions by 12%
+- ► Built a metabolomics data (high-dimensional data) analysis pipeline
+- ► Built a Shiny application for metabolomics data quality assessment
+- ► Authored/Co-authored scientific publications
 """
 )
 
 # --- JOB 2
-st.write('\n')
-st.write("🚧", "**Data Analyst | Liberty Mutual Insurance**")
-st.write("01/2018 - 02/2022")
-st.write(
-    """
-- ► Built data models and maps to generate meaningful insights from customer data, boosting successful sales eﬀorts by 12%
-- ► Modeled targets likely to renew, and presented analysis to leadership, which led to a YoY revenue increase of $300K
-- ► Compiled, studied, and inferred large amounts of data, modeling information to drive auto policy pricing
-"""
-)
-
-# --- JOB 3
-st.write('\n')
-st.write("🚧", "**Data Analyst | Chegg**")
-st.write("04/2015 - 01/2018")
-st.write(
-    """
-- ► Devised KPIs using SQL across company website in collaboration with cross-functional teams to achieve a 120% jump in organic traﬃc
-- ► Analyzed, documented, and reported user survey results to improve customer communication processes by 18%
-- ► Collaborated with analyst team to oversee end-to-end process surrounding customers' return data
-"""
-)
 
 
 # --- Projects & Accomplishments ---
