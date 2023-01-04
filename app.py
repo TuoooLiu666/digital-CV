@@ -14,7 +14,7 @@ PAGE_TITLE = "Digital CV | Tuo Liu"
 PAGE_ICON = ":v:"
 NAME = "Tuo Liu"
 DESCRIPTION = """
-Ph.D. student in Environmental Health Sciences at the University of Arizona,
+Ph.D. student major in Environmental Health Sciences, minor in Biostatistics, at the University of Arizona,
 studying and practising metabolomics.
 """
 
@@ -28,7 +28,7 @@ SOCIAL_MEDIA = {
 PROJECTS = {
     "🏆 Expense Tracker - A web app with NoSQL database, Streamlit, and Python": "https://tuoooliu666-expense-tracker-app-t5a7ro.streamlit.app/",
     "🏆 Arizona Pesticide Use - A web app built with Flexboard, Shiny, and R": "https://tuoliu.shinyapps.io/Metabolomics_QC-EDA_APP/",
-    "🏆 Exploring Neighborhoods Chinese Restaurants in Toronto, Python": "https://www.linkedin.com/pulse/exploring-neighborhoods-chinese-restaurants-toronto-tuo-liu/?trackingId=tM10bHWKQ56%2Bknl2IqrG2g%3D%3D",
+    "🏆 Exploring Neighborhoods - Chinese Restaurants in Toronto, Python": "https://www.linkedin.com/pulse/exploring-neighborhoods-chinese-restaurants-toronto-tuo-liu/?trackingId=tM10bHWKQ56%2Bknl2IqrG2g%3D%3D",
 }
 
 
@@ -85,12 +85,24 @@ st.subheader("Hard Skills")
 st.write(
     """
 - 👩‍💻 Programming: R, Python, SQL
-- 📊 Data Visulization: GGPLOT2, Shiny, Streamlit
+- 📊 Data Visulization: ggplot2, Shiny, Streamlit
 - 📚 Modeling: Generalized linear regression
 - 🗄️ Databases: MySQL
 """
 )
 
+# --- DS BACKGROUND ---
+st.write('\n')
+st.subheader("Statistical Background")
+st.write(
+    """
+- ► Theory of Probability
+- ► Theory of Statistics
+- ► Longitudinal and Mixed Effects Models
+- ► Advanced Statistical Regression Analysis
+- ► Experiment Design and Analysis
+"""
+)
 
 # --- WORK HISTORY ---
 st.write('\n')
@@ -109,6 +121,30 @@ st.write(
 )
 
 # --- JOB 2
+
+
+# --- Education ---
+# PhD
+st.write('\n')
+st.subheader("Education")
+st.write("---")
+
+
+st.write(":school:", "**Ph.D. in Environmental Health Sciences | University of Arizona**")
+st.write(
+    """
+- :pencil: Major: Environmental Health Sciences
+- :pencil: Minor: Biostatistics
+"""
+)
+st.write("08/2021 - Present")
+
+
+# MS
+st.write("🏫", "**M.S. in Environmental Health Sciences | University of Michigan**")
+st.write("09/2018 - 05/2020")
+
+
 
 
 # --- Projects & Accomplishments ---
