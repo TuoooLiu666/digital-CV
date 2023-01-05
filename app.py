@@ -14,8 +14,7 @@ PAGE_TITLE = "Digital CV | Tuo Liu"
 PAGE_ICON = ":v:"
 NAME = "Tuo Liu"
 DESCRIPTION = """
-Ph.D. student major in Environmental Health Sciences, minor in Biostatistics, at the University of Arizona,
-studying and practising metabolomics.
+Ph.D. student at the University of Arizona, major in Environmental Health Sciences, minor in Biostatistics. I learn and practise metabolomics.
 """
 
 EMAIL = "tuoooliu@arizona.edu"
@@ -73,9 +72,9 @@ st.subheader("Experience & Qulifications")
 st.write(
     """
 - ✔️ 4 Years expereince extracting publishable insights from experiment& survey data
-- ✔️ Solid understanding of statistical grond and biostatistical applications
+- ✔️ Solid understanding of statistical ground and biostatistical applications
 - ✔️ Strong hands on experience and knowledge in R & Python
-- ✔️ Excellent team-player and displaying strong sense of initiative on tasks
+- ✔️ Excellent team-player and productive task initializer and completer
 """
 )
 
